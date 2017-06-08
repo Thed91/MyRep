@@ -23,7 +23,6 @@ public class User {
     private boolean isAdmin;
 
     @Column
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date createDate;
 
     public Integer getId() {
