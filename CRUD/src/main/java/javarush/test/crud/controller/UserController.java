@@ -14,7 +14,7 @@ import java.util.List;
 public class UserController {
 
     private final UserService userService;
-    private final int MAX_RECORDS=10;
+    private static final int MAX_RECORDS=10;
 
     @Autowired
     public UserController(UserService userService) {
